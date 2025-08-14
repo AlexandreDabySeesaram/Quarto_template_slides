@@ -164,8 +164,6 @@ $\Psi = \frac{\lambda}{2} \text{tr}\left(\matrice{E}\right)^2 + \mu \matrice{E}:
   * More content
     * Well organised
 
-:::: {style='margin-top: 0.2em;'}
-::::
 
 :::
 
@@ -187,10 +185,10 @@ And you can
 
 * Put equations 
   * In lists $\left(\textcolor{Blue}{\vect{x}}, \textcolor{LGreen}{\para}\right)$
-    * While benefiting from the same macro you use in day-to-day LaTeX use
+    * While benefiting from the same macros you use in day-to-day LaTeX use
 
 
-::: {style="margin-top: 0.72em;"}
+::: {style="margin-top: 0.9em;"}
 :::
 :::
 
