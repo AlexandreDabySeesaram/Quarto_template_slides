@@ -1,7 +1,6 @@
 # This is a Quarto Reveal.js Slide Template
 
-You can browse a minimal example of this template [here](https://alexandredabyseesaram.github.io/Quarto_template_slides)
-A minimal starter for creating slides with [Quarto](https://quarto.org/) using [Reveal.js](https://revealjs.com/).
+You can browse a minimal example of this template [here](https://alexandredabyseesaram.github.io/Quarto_template_slides).
 
 ## Features
 - IPP theme and colours
