@@ -82,7 +82,7 @@ Second box version
 
 ::: {.fragment .fade-in}
 
-* [With a different color]{.warning}
+* [With different colours]{.warning}
 
 :::
 
@@ -161,7 +161,8 @@ Works just as well in boxes
 $\Psi = \frac{\lambda}{2} \text{tr}\left(\matrice{E}\right)^2 + \mu \matrice{E}:\matrice{E}$
 
 * Where you can add
-  * More information
+  * More content
+    * Well organised
 
 :::: {style='margin-top: 0.2em;'}
 ::::
@@ -184,9 +185,9 @@ And you can
 
 ::::{.mybox-body}
 
-* Put equations in lists
-  * Parametrised solution $\left(\textcolor{Blue}{\vect{x}}, \textcolor{LGreen}{\para}\right)$
-* while benefiting from the same macro you use in day to day latex use
+* Put equations 
+  * In lists $\left(\textcolor{Blue}{\vect{x}}, \textcolor{LGreen}{\para}\right)$
+    * While benefiting from the same macro you use in day-to-day LaTeX use
 
 
 ::: {style="margin-top: 0.72em;"}
@@ -206,9 +207,9 @@ And you can
 +----------------------------------------------+
 |  2. **On the *Part slides* with a distinct style** |
 +----------------------------------------------+
-|  3. **To enphasise the transition**                |
+|  3. **To emphasise the transition**                |
 +----------------------------------------------+
-|  4. **between a part and another**                 |
+|  4. **Between a *part* and *another***                 |
 +----------------------------------------------+
 
 
@@ -219,7 +220,7 @@ And you can
 :::: {.columns}
 
 ::: {.column width="55%"}
-* Still using column to organise content
+* Still using column to organise content in the slide
 
 $$
     \mathcal{U}_h = \left\{\vect{u}_h  \; | \; \vect{u}_h \in \text{Span}\left( \left\{ N_i^{\Omega}\left(\vect{x} \right)\right\}_{i \in \llbracket 1,N\rrbracket} \right)^d \text{, }
@@ -235,7 +236,7 @@ $$
 
 * You can use
   * The `.green-bullets` environment 
-  * To highligh positive aspects
+  * To highlight positive aspects
 :::
 
 :::{.red-bullets}
@@ -271,9 +272,9 @@ $$ \vect{u} \left(x_{0,0,0} \right) = \sum\limits_{i = 0}^C \sum\limits_{j = 0}^
 
 
 
-* More animation exist, including
+* More animations exist, including
   * Morphing
-    * To link piece of slide through the animation
+    * To link a piece of the slide through different slides
   * Fade-in-then-out
     * To replace pieces of slides with new ones
 
@@ -290,7 +291,7 @@ $$ \vect{u} \left(x_{0,0,0} \right) = \sum\limits_{i = 0}^C \sum\limits_{j = 0}^
 
 
 
-* You can easily cite items from a `.bib` file, which then appear in the bibliography list.[@ladevezeFamilleDalgorithmesMecanique1985;@chinestaShortReviewModel2011]
+* You can easily cite items from a `.bib` file, which appears in the bibliography list.[@ladevezeFamilleDalgorithmesMecanique1985;@chinestaShortReviewModel2011]
 
 
 :::: {.columns}
@@ -306,7 +307,7 @@ Some content
 ::: {.mybox-body}
 
 * Use `.r-stack` div to allow selecting several element to be put on top of each other 
-  * To be used with `fragment`to incrementally reveal elements
+  * To be used with `fragment` to incrementally reveal elements
     * see [here](https://quarto.org/docs/presentations/revealjs/advanced.html)
 * Use `data-id="xxx"` to name the fragments
 
@@ -341,7 +342,7 @@ $$
 
 ## Morphing animation - Slide 2 {auto-animate=true} 
 
-* Here the target shape and position of the morphing animation is set
+* Here, the target shape and position of the morphing animation are set
 * We also use `.fragment fragment` and `fragment-index` to incrementally replace the equations
 
 
@@ -368,7 +369,7 @@ $$
 **Incremental reveal**
 
 ::: {.fragment fragment-index=1 .fade-in}
-1. We start with the taget of the morphing
+1. We start with the target of the morphing
 2. That can be different from the source
 :::
 ::: {.fragment fragment-index=2 .fade-in}
@@ -417,12 +418,12 @@ Using plotly
 
 ::: {.column width="50%"}
 * Interactive plots
-  * Pan, zoom-in, explore the plots, click on legend
+  * Pan, zoom in, explore the plots, click on the legend
 
 :::
 
 ::: {.column width="50%"}
-* I recommand saving csv from the results and loading them to create the plots
+* I recommend saving `.csv` from the results and loading them to create the plots
 :::
 
 ::::
@@ -453,9 +454,9 @@ Using plotly
 
 ::: {.column width="50%"}
 
-* You can also use html `iframe` to embeded 3D html 
+* You can also use html `iframe` to embed 3D html 
   * Those can be created from FEM results
-  * And stylised in blender
+  * And stylised in Blender
     * as described in [@mathurBriefNoteBuilding2023]
 
 <iframe width="100%" height="400" src="https://alexandredabyseesaram.github.io/Resources/AR/3D_lung_AR.html"></IFRAME>
