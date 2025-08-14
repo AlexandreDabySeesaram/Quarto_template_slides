@@ -15,6 +15,6 @@ You can browse a minimal example of this template [here](https://alexandredabyse
 ```bash
    quarto render
 ```
-Edit ```_quarto.yml``` for global settings.
+3. Edit ```_quarto.yml``` for global settings.
 
 Change main matter in ```index.qmd```
