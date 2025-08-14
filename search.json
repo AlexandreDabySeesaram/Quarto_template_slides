@@ -2,56 +2,56 @@
   {
     "objectID": "index.html#slide-title",
     "href": "index.html#slide-title",
-    "title": "I - Part I (Hidden)",
+    "title": "Quarto slide-template",
     "section": "Slide title",
     "text": "Slide title\n\n\n\n\n\nImage caption\n\n\n\n\nYou can also input videos as\n\n![Caption](Figures/Movies/your_video.mp4){ width=80% loop=\"true\" autoplay=true}\nwith the possibility to specify the size and the reading options\n\nLoop\nAutoplay\nMore options here\n\n\n\n\n\n\n\n\nDefault box title\n\n\n\n\n\n\n\nUse boxes to organise your content\nThis is what a default mybox looks like\n\n\n\n\n\n\n\n\n\nSecond box version\n\n\n\n\nHere is a second header version\n\n\n\n\nWith a different color"
   },
   {
     "objectID": "index.html#latex-equations",
     "href": "index.html#latex-equations",
-    "title": "I - Part I (Hidden)",
+    "title": "Quarto slide-template",
     "section": "Latex equations",
     "text": "Latex equations\n\n\\[\n\\definecolor{Violet}{RGB}{162, 32, 185}\n\\definecolor{Teal}{RGB}{0, 103, 127}\n\\definecolor{Blue}{RGB}{58, 70, 245}\n\\definecolor{Green}{RGB}{0,103,127}\n\\definecolor{LGreen}{RGB}{62,128,102}\n\\definecolor{red}{RGB}{206,0,55}\n\\]\n\nYou can use latex just in the same way as you would in a beamer\n\n\n\n\n\n\n\n\\[\n      \\boldsymbol{u} = \\mathop{\\mathrm{arg\\,min}}_{H^1\\left(\\Omega \\right)} \\int_{\\Omega} \\Psi\\left( \\boldsymbol{E}\\left(\\boldsymbol{u}\\left(\\textcolor{Blue}{\\boldsymbol{x}}, \\textcolor{LGreen}{\\left\\{\\mu_i\\right\\}_{i \\in \\mathopen{~[\\!\\![~}1, \\beta  \\mathclose{~]\\!\\!]}}}\\right)\\right) \\right) ~\\mathrm{d}\\Omega- W_{\\text{ext}}\\left(\\textcolor{Blue}{\\boldsymbol{x}}, \\textcolor{LGreen}{\\left\\{\\mu_i\\right\\}_{i \\in \\mathopen{~[\\!\\![~}1, \\beta  \\mathclose{~]\\!\\!]}}}\\right)\n\\]\n\n\n\n\n\\(\\boldsymbol{F} = \\boldsymbol{1} + \\boldsymbol{\\nabla}\\boldsymbol{u}\\) - deformation gradient\n\\(\\boldsymbol{C} = \\boldsymbol{F}^T \\cdot \\boldsymbol{F}\\) - right Cauchy-Green tensor\n\\(\\boldsymbol{E} = \\frac{1}{2}\\left(\\boldsymbol{C} -\\boldsymbol{1} \\right)\\) - Green-Lagrange tensor\n\n\\(I_1 = \\text{tr}\\left(\\boldsymbol{C} \\right)\\) - first invariant of \\(\\boldsymbol{C}\\)\n\n\n\n\n\n\n\n\n\nWorks just as well in boxes\n\n\n\n\n\n\\(\\Psi = \\frac{\\lambda}{2} \\text{tr}\\left(\\boldsymbol{E}\\right)^2 + \\mu \\boldsymbol{E}:\\boldsymbol{E}\\)\n\nWhere you can add\n\nMore information\n\n\n\n\n\n\n\n\n\n\n\nAnd you can\n\n\n\nPut equations in lists\n\nParametrised solution \\(\\left(\\textcolor{Blue}{\\boldsymbol{x}}, \\textcolor{LGreen}{\\left\\{\\mu_i\\right\\}_{i \\in \\mathopen{~[\\!\\![~}1, \\beta  \\mathclose{~]\\!\\!]}}}\\right)\\)\n\nwhile benefiting from the same macro you use in day to day latex use"
   },
   {
     "objectID": "index.html#other-styling-options",
     "href": "index.html#other-styling-options",
-    "title": "I - Part I (Hidden)",
+    "title": "Quarto slide-template",
     "section": "Other styling options",
     "text": "Other styling options\n\n\n\nStill using column to organise content\n\n\\[\n    \\mathcal{U}_h = \\left\\{\\boldsymbol{u}_h  \\; | \\; \\boldsymbol{u}_h \\in \\text{Span}\\left( \\left\\{ N_i^{\\Omega}\\left(\\boldsymbol{x} \\right)\\right\\}_{i \\in \\mathopen{~[\\!\\![~}1,N\\mathclose{~]\\!\\!]}} \\right)^d \\text{, }\n    \\boldsymbol{u}_h = \\boldsymbol{u}_d \\text{ on }\\partial \\Omega_d  \\right\\}\n\\]\n\n\n\n\nYou can use\n\nThe .green-bullets environment\nTo highligh positive aspects\n\n\n\n\n\nOr\n\nThe .red-bullets environment\nFor negative aspects\n\n\n\n\n\n\n\n\n\nWith different sliding animations\n\n\\[ \\boldsymbol{u} \\left(x_{0,0,0} \\right) = \\sum\\limits_{i = 0}^C \\sum\\limits_{j = 0}^{N_i} \\sigma \\left( \\sum\\limits_{k = 0}^{M_{i,j}} b_{i,j}+\\omega_{i,j,k}~ x_{i,j,k} \\right) \\]\n\n\n\n\nMore animation exist, including\n\nMorphing\n\nTo link piece of slide through the animation\n\nFade-in-then-out\n\nTo replace pieces of slides with new ones"
   },
   {
     "objectID": "index.html#morphing-animation---slide-1",
     "href": "index.html#morphing-animation---slide-1",
-    "title": "I - Part I (Hidden)",
+    "title": "Quarto slide-template",
     "section": "Morphing animation - Slide 1",
     "text": "Morphing animation - Slide 1\n\nYou can easily cite items from a .bib file, which then appear in the bibliography list.(Chinesta et al., 2011; Ladeveze, 1985)\n\n\n\n\n\nSome content\n\n\n\nUse .r-stack div to allow selecting several element to be put on top of each other\n\nTo be used with fragmentto incrementally reveal elements\n\nsee here\n\n\nUse data-id=\"xxx\" to name the fragments\n\n\n\n\\[            \n\\textcolor{VioletLMS_2}{\\boldsymbol{u}}\\left(\\textcolor{Blue}{\\boldsymbol{x}}, \\textcolor{LGreen}{\\left\\{\\mu_i\\right\\}_{i \\in \\mathopen{~[\\!\\![~}1, \\beta  \\mathclose{~]\\!\\!]}}}\\right) = \\sum\\limits_{i=1}^m \\textcolor{Blue}{\\overline{\\boldsymbol{u}}_i(\\boldsymbol{x})} ~\\textcolor{LGreen}{\\prod_{j=1}^{\\beta}\\lambda_i^j(\\mu^j)}\\]\n\n\n\n\n\n\n\n\n\nHere we show how to morph some content from one slide\nTo another"
   },
   {
     "objectID": "index.html#morphing-animation---slide-2",
     "href": "index.html#morphing-animation---slide-2",
-    "title": "I - Part I (Hidden)",
+    "title": "Quarto slide-template",
     "section": "Morphing animation - Slide 2",
     "text": "Morphing animation - Slide 2\n\nHere the target shape and position of the morphing animation is set\nWe also use .fragment fragment and fragment-index to incrementally replace the equations\n\n\n\n\n\\[\n\\boldsymbol{u}\\left(\\boldsymbol{x}, \\left\\{\\mu_i\\right\\}_{i \\in \\mathopen{~[\\!\\![~}1, \\beta  \\mathclose{~]\\!\\!]}}\\right) =  \\overline{\\boldsymbol{u}}(\\boldsymbol{x}) ~\\prod_{j=1}^{\\beta}\\lambda^j(\\mu^j) \\]\n\n\n\n\\[\n\\boldsymbol{u}\\left(\\boldsymbol{x}, \\left\\{\\mu_i\\right\\}_{i \\in \\mathopen{~[\\!\\![~}1, \\beta  \\mathclose{~]\\!\\!]}}\\right) = \\textcolor{Red}{\\sum\\limits_{i=1}^{2}} \\overline{\\boldsymbol{u}}_{\\textcolor{Red}{i}}(\\boldsymbol{x}) ~\\prod_{j=1}^{\\beta}\\lambda_{\\textcolor{Red}{i}}^j(\\mu^j) \\]\n\n\n\n\\[\n\\boldsymbol{u}\\left(\\boldsymbol{x}, \\left\\{\\mu_i\\right\\}_{i \\in \\mathopen{~[\\!\\![~}1, \\beta  \\mathclose{~]\\!\\!]}}\\right) = \\sum\\limits_{i=1}^{\\textcolor{Red}{m}} \\overline{\\boldsymbol{u}}_i(\\boldsymbol{x}) ~\\prod_{j=1}^{\\beta}\\lambda_i^j(\\mu^j) \\]\n\n\n\nIncremental reveal\n\n\nWe start with the taget of the morphing\nThat can be different from the source\n\n\n\n\nWe then fade it out\nAnd fade-in (then-out) its replacement\n\n\n\n\nAnd again"
   },
   {
     "objectID": "index.html#python-plots",
     "href": "index.html#python-plots",
-    "title": "I - Part I (Hidden)",
+    "title": "Quarto slide-template",
     "section": "Python plots",
-    "text": "Python plots\n\n\n\n\nCurrent working directory: /Users/daby/Documents/Presentations/2025/Template_ENSTA\n\n\n                                                \nLoss convergence\n\n\n\n\n\nCurrent working directory: /Users/daby/Documents/Presentations/2025/Template_ENSTA\n\n\n                                                \nLoss decay\n\n\n\n\n\nUsing plotly\n\n\n\n\n\nInteractive plots\n\nPan, zoom-in, explore the plots, click on legend\n\n\n\n\nI recommand saving csv from the results and loading them to create the plots"
+    "text": "Python plots\n\n\n\n\nCurrent working directory: /Users/daby/Documents/Presentations/Quarto_template_slides\n\n\n                                                \nLoss convergence\n\n\n\n\n\nCurrent working directory: /Users/daby/Documents/Presentations/Quarto_template_slides\n\n\n                                                \nLoss decay\n\n\n\n\n\nUsing plotly\n\n\n\n\n\nInteractive plots\n\nPan, zoom-in, explore the plots, click on legend\n\n\n\n\nI recommand saving csv from the results and loading them to create the plots"
   },
   {
     "objectID": "index.html#d-interactive-plots",
     "href": "index.html#d-interactive-plots",
-    "title": "I - Part I (Hidden)",
+    "title": "Quarto slide-template",
     "section": "3D interactive plots",
     "text": "3D interactive plots\n\n\n\nYou can simply use the 3D plotting options of plotly to get interactive 3D plots\n\n\n\n                                                \n\n\n\n\nYou can also use html iframe to embeded 3D html\n\nThose can be created from FEM results\nAnd stylised in blender\n\nas described in (Mathur et al., 2023)"
   },
   {
     "objectID": "index.html#references",
     "href": "index.html#references",
-    "title": "I - Part I (Hidden)",
+    "title": "Quarto slide-template",
     "section": "References",
     "text": "References\n\n\n\n\nChinesta, F., Ladeveze, P., & Cueto, E. (2011). A Short Review on Model Order Reduction Based on Proper Generalized Decomposition. Archives of Computational Methods in Engineering, 18(4), 395–404. https://doi.org/10.1007/s11831-011-9064-7\n\n\nLadeveze, P. (1985). Sur une famille d’algorithmes en mécanique des structures. Sur Une Famille d’algorithmes En Mécanique Des Structures, 300(2), 41–44.\n\n\nMathur, M., Brozovich, J. M., & Rausch, M. K. (2023). A brief note on building augmented reality models for scientific visualization. Finite Elements in Analysis and Design, 213, 103851. https://doi.org/10.1016/j.finel.2022.103851"
   }
