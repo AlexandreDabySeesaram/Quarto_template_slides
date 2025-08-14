@@ -1,0 +1,88 @@
+```{python}
+#| label: LossDecay
+#| fig-cap: "Loss decay"
+
+import plotly.graph_objects as go
+import pandas as pd
+
+import os
+print("Current working directory:", os.getcwd())
+
+
+
+
+
+# Load the CSV data
+try:
+    data = pd.read_csv("BiAngle_mono.csv")
+except:
+    data = pd.read_csv("Figures/BiAngle_mono.csv")
+# Extract data
+epochs = data['epochs']
+decay = data['Decay']
+modes = data['Modes']
+
+# Create the figure
+fig = go.Figure()
+
+# Add Loss Decay trace
+fig.add_trace(go.Scatter(
+    x=epochs, y=decay,
+    name='Loss Decay',
+    yaxis='y1',
+    mode='lines',
+    line=dict(color='#01426a')
+))
+
+# Add Modes trace
+fig.add_trace(go.Scatter(
+    x=epochs, y=modes,
+    visible='legendonly',
+    name='Modes',
+    yaxis='y2',
+    mode='lines',
+    line=dict(color='#CE0037')
+))
+
+# Update layout
+fig.update_layout(
+        plot_bgcolor='rgba(0,0,0,0)',  # Remove background color
+
+    width=450, 
+    height=400,  
+    xaxis=dict( title='Epochs',
+                showgrid=True,
+                gridcolor='lightgray'),
+    yaxis=dict(
+        title='Loss Decay',
+        type='log',
+        tickvals=[1e-07, 1e-05, 1e-03, 1e-01],
+        ticktext=['10⁻⁷', '10⁻⁵', '10⁻³', '10⁻¹'],
+        titlefont=dict(color='#01426a'),
+        tickfont=dict(color='#01426a'),
+        showgrid=True,
+        gridcolor='lightgray', 
+    ),
+    yaxis2=dict(
+        title='Modes',
+        overlaying='y',
+        side='right',
+        tickvals=[1, 2, 3],
+        titlefont=dict(color='#CE0037'),
+        tickfont=dict(color='#CE0037')
+    ),
+    shapes=[
+        dict(
+            type='line',
+            xref='paper', x0=0, x1=1,
+            yref='y1', y0=1e-5, y1=1e-5,
+            line=dict(color='black', width=2, dash='dash')
+        )
+    ],
+    legend=dict(x=1, y=0.9)
+)
+
+# Show the figure
+fig.show()
+
+```

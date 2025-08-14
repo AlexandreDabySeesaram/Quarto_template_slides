@@ -1,0 +1,466 @@
+
+
+# I - Part I (Hidden) {visibility="hidden"}
+
+
+## Slide title
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![Image caption](Figures/Fig1.svg){ width=80%}
+
+:::
+
+::: {.column width="50%"}
+
+
+
+* You can also input videos as
+  * `![Caption](Figures/Movies/your_video.mp4){ width=80% loop="true" autoplay=true}`
+  * with the possibility to specify the size and the reading options
+    * Loop
+    * Autoplay
+    * More options [here](https://quarto.org/docs/authoring/videos.html)
+
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+:::: {.mybox}
+
+::: {.mybox-header}
+Default box title
+:::
+
+::: {.mybox-body}
+
+<!-- This is used to add vertical spacing used to adjust objects'poisition -->
+
+:::: {style='margin-top: 0.6em;'}
+::::
+
+* Use boxes to organise your content
+* This is what a default `mybox` looks like
+
+:::: {style='margin-top: 0.6em;'}
+::::
+
+:::
+
+::::
+
+:::
+
+::: {.column width="50%"}
+
+:::: {.mybox}
+
+::: {.mybox-header-bis}
+
+Second box version 
+
+:::
+
+::: {.mybox-body}
+
+::: {.fragment fragment-index=1 .fade-in}
+
+* [Here is a second header version]{.important}
+
+:::
+
+::: {.fragment .fade-in}
+
+* [With a different color]{.warning}
+
+:::
+
+:::
+
+::::
+
+:::
+
+::::
+
+
+## Latex equations 
+
+<!-- Include my latex headers with notations and colours -->
+{{< include Template/my_notations.qmd >}}
+{{< include Template/my_colours.qmd >}}
+
+
+* You can use latex just in the same way as you would in a **beamer**
+
+
+
+
+::: columns
+::: {.column  width="65%"}
+
+:::: {style='margin-top: 3em;'}
+::::
+
+::: {data-id="2" }
+
+$$
+      \vect{u} = \argmin_{H^1\left(\Omega \right)} \int_{\Omega} \Psi\left( \matrice{E}\left(\vect{u}\left(\textcolor{Blue}{\vect{x}}, \textcolor{LGreen}{\para}\right)\right) \right) \dV - W_{\text{ext}}\left(\textcolor{Blue}{\vect{x}}, \textcolor{LGreen}{\para}\right)
+$$
+
+:::
+
+:::
+
+::: {.column  width="35%"}
+
+:::: {data-id="3" }
+
+
+
+* $\matrice{F} = \matrice{1} + \matrice{\nabla}\vect{u}$ - deformation gradient
+* $\matrice{C} = \matrice{F}^T \cdot \matrice{F}$ - right Cauchy-Green tensor
+* $\matrice{E} = \frac{1}{2}\left(\matrice{C} -\matrice{1} \right)$ - Green-Lagrange tensor
+  * $I_1 = \text{tr}\left(\matrice{C} \right)$ - first invariant of $\matrice{C}$
+
+::::
+
+:::
+:::
+
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+:::: {data-id="1" }
+
+
+:::{.mybox}
+
+::::{.mybox-header}
+Works just as well in boxes
+::::
+
+::::{.mybox-body}
+
+:::: {style='margin-top: 1.2em;'}
+::::
+$\Psi = \frac{\lambda}{2} \text{tr}\left(\matrice{E}\right)^2 + \mu \matrice{E}:\matrice{E}$
+
+* Where you can add
+  * More information
+
+:::: {style='margin-top: 0.2em;'}
+::::
+
+:::
+
+:::
+
+::::
+
+:::
+
+::: {.column width="50%"}
+
+:::{.mybox}
+
+::::{.mybox-header}
+And you can 
+::::
+
+::::{.mybox-body}
+
+* Put equations in lists
+  * Parametrised solution $\left(\textcolor{Blue}{\vect{x}}, \textcolor{LGreen}{\para}\right)$
+* while benefiting from the same macro you use in day to day latex use
+
+
+::: {style="margin-top: 0.72em;"}
+:::
+:::
+
+:::
+
+:::
+
+::::
+
+# Part II  {.part-slide}
+
++----------------------------------------------+
+|  1. **You can display your outlines**              |
++----------------------------------------------+
+|  2. **On the *Part slides* with a distinct style** |
++----------------------------------------------+
+|  3. **To enphasise the transition**                |
++----------------------------------------------+
+|  4. **between a part and another**                 |
++----------------------------------------------+
+
+
+## Other styling options
+
+
+
+:::: {.columns}
+
+::: {.column width="55%"}
+* Still using column to organise content
+
+$$
+    \mathcal{U}_h = \left\{\vect{u}_h  \; | \; \vect{u}_h \in \text{Span}\left( \left\{ N_i^{\Omega}\left(\vect{x} \right)\right\}_{i \in \llbracket 1,N\rrbracket} \right)^d \text{, }
+    \vect{u}_h = \vect{u}_d \text{ on }\partial \Omega_d  \right\} 
+$$
+:::
+
+::: {.column width="45%"}
+
+::: {.fragment .fade-left}
+
+:::{.green-bullets}
+
+* You can use
+  * The `.green-bullets` environment 
+  * To highligh positive aspects
+:::
+
+:::{.red-bullets}
+
+* Or
+  * The `.red-bullets` environment 
+  * For negative aspects
+:::
+
+:::
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="55%"}
+
+::: {.fragment .fade-up}
+
+
+* With different sliding animations
+
+$$ \vect{u} \left(x_{0,0,0} \right) = \sum\limits_{i = 0}^C \sum\limits_{j = 0}^{N_i} \sigma \left( \sum\limits_{k = 0}^{M_{i,j}} b_{i,j}+\omega_{i,j,k}~ x_{i,j,k} \right) $$
+
+:::
+:::
+
+::: {.column width="45%"}
+
+::: {.fragment .fade-left}
+
+
+
+* More animation exist, including
+  * Morphing
+    * To link piece of slide through the animation
+  * Fade-in-then-out
+    * To replace pieces of slides with new ones
+
+
+:::
+
+:::
+
+::::
+
+
+
+## Morphing animation - Slide 1 {auto-animate=true} 
+
+
+
+* You can easily cite items from a `.bib` file, which then appear in the bibliography list.[@ladevezeFamilleDalgorithmesMecanique1985;@chinestaShortReviewModel2011]
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+:::: {.mybox}
+
+::: {.mybox-header}
+Some content
+:::
+
+::: {.mybox-body}
+
+* Use `.r-stack` div to allow selecting several element to be put on top of each other 
+  * To be used with `fragment`to incrementally reveal elements
+    * see [here](https://quarto.org/docs/presentations/revealjs/advanced.html)
+* Use `data-id="xxx"` to name the fragments
+
+::: {.r-stack}
+::: {data-id="1" }
+$$            
+\textcolor{VioletLMS_2}{\vect{u}}\left(\textcolor{Blue}{\vect{x}}, \textcolor{LGreen}{\para}\right) = \sum\limits_{i=1}^m \textcolor{Blue}{\overline{\vect{u}}_i(\vect{x})} ~\textcolor{LGreen}{\prod_{j=1}^{\beta}\lambda_i^j(\mu^j)}$$ 
+:::
+:::
+
+:::
+
+::::
+
+:::
+
+::: {.column width="50%"}
+
+:::: {style='margin-top: 2em;'}
+::::
+
+* Here we show how to morph some content from one slide
+* To another
+
+:::
+
+::::
+
+
+
+
+
+## Morphing animation - Slide 2 {auto-animate=true} 
+
+* Here the target shape and position of the morphing animation is set
+* We also use `.fragment fragment` and `fragment-index` to incrementally replace the equations
+
+
+::: {.r-stack}
+::: {.fragment fragment-index=2 .fade-out}
+::: {data-id="1" }
+$$
+\vect{u}\left(\vect{x}, \para\right) =  \overline{\vect{u}}(\vect{x}) ~\prod_{j=1}^{\beta}\lambda^j(\mu^j) $$
+:::
+:::
+::: {.fragment fragment-index=2 .fade-in-then-out}
+$$
+\vect{u}\left(\vect{x}, \para\right) = \textcolor{Red}{\sum\limits_{i=1}^{2}} \overline{\vect{u}}_{\textcolor{Red}{i}}(\vect{x}) ~\prod_{j=1}^{\beta}\lambda_{\textcolor{Red}{i}}^j(\mu^j) $$
+:::
+::: {.fragment fragment-index=3 .fade-in}
+::: {data-id="2" }
+$$
+\vect{u}\left(\vect{x}, \para\right) = \sum\limits_{i=1}^{\textcolor{Red}{m}} \overline{\vect{u}}_i(\vect{x}) ~\prod_{j=1}^{\beta}\lambda_i^j(\mu^j) $$
+:::
+:::
+:::
+
+
+**Incremental reveal**
+
+::: {.fragment fragment-index=1 .fade-in}
+1. We start with the taget of the morphing
+2. That can be different from the source
+:::
+::: {.fragment fragment-index=2 .fade-in}
+3. We then fade it out 
+4. And fade-in (then-out) its replacement
+:::
+::: {.fragment fragment-index=3 .fade-in}
+5. And again
+:::
+
+
+
+
+
+## Python plots
+
+
+
+:::: {.columns}
+
+::: {.column width="49%"}
+
+{{< include Figures/Convergence_2D_plotly.qmd >}}
+
+:::
+
+::: {.column width="49%"}
+
+{{< include Figures/Loss_decay_2D_plotly.qmd >}}
+
+:::
+
+::::
+
+:::: {.mybox}
+
+::: {.mybox-header}
+
+Using plotly
+
+:::
+
+::: {.mybox-body}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+* Interactive plots
+  * Pan, zoom-in, explore the plots, click on legend
+
+:::
+
+::: {.column width="50%"}
+* I recommand saving csv from the results and loading them to create the plots
+:::
+
+::::
+
+
+:::
+
+::::
+
+
+
+
+
+
+
+## 3D interactive plots
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+* You can simply use the 3D plotting options of plotly to get interactive 3D plots
+
+{{< include Figures/spiral.qmd >}}
+
+
+:::
+
+::: {.column width="50%"}
+
+* You can also use html `iframe` to embeded 3D html 
+  * Those can be created from FEM results
+  * And stylised in blender
+    * as described in [@mathurBriefNoteBuilding2023]
+
+<iframe width="100%" height="400" src="https://alexandredabyseesaram.github.io/Resources/AR/3D_lung_AR.html"></IFRAME>
+
+:::
+
+::::
+
+
+## References
+
+
