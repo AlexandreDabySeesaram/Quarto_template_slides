@@ -30,7 +30,7 @@ fig.add_trace(go.Scatter(
     name='Loss Decay',
     yaxis='y1',
     mode='lines',
-    line=dict(color='#01426a')
+    line=dict(color='#170f38')
 ))
 
 # Add Modes trace
@@ -40,7 +40,7 @@ fig.add_trace(go.Scatter(
     name='Modes',
     yaxis='y2',
     mode='lines',
-    line=dict(color='#CE0037')
+    line=dict(color='#da3bf7')
 ))
 
 # Update layout
@@ -57,8 +57,8 @@ fig.update_layout(
         type='log',
         tickvals=[1e-07, 1e-05, 1e-03, 1e-01],
         ticktext=['10⁻⁷', '10⁻⁵', '10⁻³', '10⁻¹'],
-        titlefont=dict(color='#01426a'),
-        tickfont=dict(color='#01426a'),
+        titlefont=dict(color='#170f38'),
+        tickfont=dict(color='#170f38'),
         showgrid=True,
         gridcolor='lightgray', 
     ),
@@ -67,8 +67,8 @@ fig.update_layout(
         overlaying='y',
         side='right',
         tickvals=[1, 2, 3],
-        titlefont=dict(color='#CE0037'),
-        tickfont=dict(color='#CE0037')
+        titlefont=dict(color='#da3bf7'),
+        tickfont=dict(color='#da3bf7')
     ),
     shapes=[
         dict(
