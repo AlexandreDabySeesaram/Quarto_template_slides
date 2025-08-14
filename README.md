@@ -16,5 +16,4 @@ You can browse a minimal example of this template [here](https://alexandredabyse
    quarto render
 ```
 3. Edit ```_quarto.yml``` for global settings.
-
-Change main matter in ```index.qmd```
+4. Change main matter in ```index.qmd```
