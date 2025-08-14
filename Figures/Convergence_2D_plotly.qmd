@@ -31,7 +31,7 @@ fig.add_trace(go.Scatter(
     name='Loss',
     yaxis='y1',
     mode='lines',
-    line=dict(color='#01426a')
+    line=dict(color='#170f38')
 ))
 
 # Add Modes trace
@@ -41,7 +41,7 @@ fig.add_trace(go.Scatter(
     name='Modes',
     yaxis='y2',
     mode='lines',
-    line=dict(color='#CE0037')
+    line=dict(color='#da3bf7')
 ))
 
 # Update layout
@@ -58,8 +58,8 @@ fig.update_layout(
         autorange='reversed',
         tickvals=[0.01, 0.03, 0.03, 0.04, 0.06],
         ticktext=['-1e-2', '-3e-2', '-3e-2', '-4e-2', '-6e-2'],
-        titlefont=dict(color='#01426a'),
-        tickfont=dict(color='#01426a'),
+        titlefont=dict(color='#170f38'),
+        tickfont=dict(color='#170f38'),
         showgrid=True,
         gridcolor='lightgray'
     ),
@@ -68,8 +68,8 @@ fig.update_layout(
         overlaying='y',
         side='right',
         tickvals=[1, 2, 3],
-        titlefont=dict(color='#CE0037'),
-        tickfont=dict(color='#CE0037')
+        titlefont=dict(color='#da3bf7'),
+        tickfont=dict(color='#da3bf7')
         
     ),
     legend=dict(x=1, y=0.9)
