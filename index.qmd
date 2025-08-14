@@ -1,4 +1,8 @@
-
+---
+title: "Quarto slide-template"
+subtitle: "E4H flavour"
+format: revealjs
+---
 
 # I - Part I (Hidden) {visibility="hidden"}
 
