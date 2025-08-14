@@ -14,10 +14,10 @@ project:
   type: website
   output-dir: public
 
-title: "Quarto slide-template"
-subtitle: "E4H flavour"
 format: 
   revealjs:
+    title: "Quarto slide-template"
+    subtitle: "E4H flavour"
     css: Template/ENSTA.css
     smaller: true
     html-math-method: mathjax
