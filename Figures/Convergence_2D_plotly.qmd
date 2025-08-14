@@ -41,7 +41,7 @@ fig.add_trace(go.Scatter(
     name='Modes',
     yaxis='y2',
     mode='lines',
-    line=dict(color='#da3bf7')
+    line=dict(color='#3a46f5')
 ))
 
 # Update layout
@@ -68,8 +68,8 @@ fig.update_layout(
         overlaying='y',
         side='right',
         tickvals=[1, 2, 3],
-        titlefont=dict(color='#da3bf7'),
-        tickfont=dict(color='#da3bf7')
+        titlefont=dict(color='#3a46f5'),
+        tickfont=dict(color='#3a46f5')
         
     ),
     legend=dict(x=1, y=0.9)
