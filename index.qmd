@@ -396,7 +396,7 @@ $$
 
 ::: {.column width="49%"}
 
-{{< include Figures/Loss_decay_2D_plotly.qmd >}}
+<!-- {{< include Figures/Loss_decay_2D_plotly.qmd >}} -->
 
 :::
 
@@ -462,6 +462,13 @@ Using plotly
 :::
 
 ::::
+
+
+## 3D interactive plots with PGD
+
+And now you can add full interactive html : 
+
+<iframe width="100%" height="550" src="https://alexandredabyseesaram.github.io/Resources/AR/Breathing_ROM_SVK_AR.html" style="border:0" allow="fullscreen" allowfullscreen></iframe>
 
 
 ## References

@@ -1,3 +1,5 @@
 /.quarto/
 public/*
 *.DS_Store*
+
+**/*.quarto_ipynb

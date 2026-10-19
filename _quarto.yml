@@ -18,6 +18,11 @@ project:
 
 format: 
   revealjs:
+    include-in-header:
+      - text: |
+          <script>
+            window.PlotlyConfig = {MathJaxConfig: 'local'};
+          </script>
     css: Template/ENSTA.css
     smaller: true
     html-math-method: mathjax
@@ -46,6 +51,7 @@ format:
     date-format: long
     title-slide-attributes: 
         data-background-image: "Template/BG.svg"
+    
 jupyter: python3
 execute:
   freeze: auto
