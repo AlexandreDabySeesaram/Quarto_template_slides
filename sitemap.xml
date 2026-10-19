@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://AlexandreDabySeesaram.github.io/Quarto_template_slides/index.html</loc>
-    <lastmod>2025-08-14T15:44:44.988Z</lastmod>
-  </url>
-  <url>
     <loc>https://AlexandreDabySeesaram.github.io/Quarto_template_slides/Template/my_colours.html</loc>
-    <lastmod>2025-08-14T15:44:44.937Z</lastmod>
+    <lastmod>2026-10-19T09:28:30.966Z</lastmod>
   </url>
   <url>
-    <loc>https://AlexandreDabySeesaram.github.io/Quarto_template_slides/Figures/spiral.html</loc>
-    <lastmod>2025-08-14T15:44:44.895Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AlexandreDabySeesaram.github.io/Quarto_template_slides/Figures/Loss_decay_2D_plotly.html</loc>
-    <lastmod>2025-08-14T15:44:44.895Z</lastmod>
+    <loc>https://AlexandreDabySeesaram.github.io/Quarto_template_slides/index.html</loc>
+    <lastmod>2026-10-19T09:28:30.995Z</lastmod>
   </url>
   <url>
     <loc>https://AlexandreDabySeesaram.github.io/Quarto_template_slides/Figures/Convergence_2D_plotly.html</loc>
-    <lastmod>2025-08-14T15:44:44.878Z</lastmod>
+    <lastmod>2026-10-19T09:28:30.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AlexandreDabySeesaram.github.io/Quarto_template_slides/Figures/spiral.html</loc>
+    <lastmod>2026-10-19T09:28:30.929Z</lastmod>
   </url>
   <url>
     <loc>https://AlexandreDabySeesaram.github.io/Quarto_template_slides/Template/my_notations.html</loc>
-    <lastmod>2025-08-14T15:44:44.937Z</lastmod>
+    <lastmod>2026-10-19T09:28:30.966Z</lastmod>
   </url>
 </urlset>

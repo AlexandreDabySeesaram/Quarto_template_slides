@@ -39,7 +39,7 @@
     "href": "index.html#python-plots",
     "title": "Quarto slide-template",
     "section": "Python plots",
-    "text": "Python plots\n\n\n\n\n                                                \nLoss convergence\n\n\n\n\n\n                                                \nLoss decay\n\n\n\n\n\nUsing plotly\n\n\n\n\n\nInteractive plots\n\nPan, zoom in, explore the plots, click on the legend\n\n\n\n\nI recommend saving .csv from the results and loading them to create the plots"
+    "text": "Python plots\n\n\n\n\n                                                \nLoss convergence\n\n\n\n\n\n\n\nUsing plotly\n\n\n\n\n\nInteractive plots\n\nPan, zoom in, explore the plots, click on the legend\n\n\n\n\nI recommend saving .csv from the results and loading them to create the plots"
   },
   {
     "objectID": "index.html#d-interactive-plots",
@@ -47,6 +47,13 @@
     "title": "Quarto slide-template",
     "section": "3D interactive plots",
     "text": "3D interactive plots\n\n\n\nYou can simply use the 3D plotting options of plotly to get interactive 3D plots\n\n\n\n                                                \n\n\n\n\nYou can also use html iframe to embed 3D html\n\nThose can be created from FEM results\nAnd stylised in Blender\n\nas described in (Mathur et al., 2023)"
+  },
+  {
+    "objectID": "index.html#d-interactive-plots-with-pgd",
+    "href": "index.html#d-interactive-plots-with-pgd",
+    "title": "Quarto slide-template",
+    "section": "3D interactive plots with PGD",
+    "text": "3D interactive plots with PGD\nAnd now you can add full interactive html :"
   },
   {
     "objectID": "index.html#references",

@@ -53,22 +53,27 @@ fig.update_layout(
         showgrid=True,
         gridcolor='lightgray'),
     yaxis=dict(
-        title='Loss',
+        title=dict(
+            text='Loss', 
+            font=dict(color='#170f38')),
         type='log',
         autorange='reversed',
         tickvals=[0.01, 0.03, 0.03, 0.04, 0.06],
         ticktext=['-1e-2', '-3e-2', '-3e-2', '-4e-2', '-6e-2'],
-        titlefont=dict(color='#170f38'),
+        # titlefont=dict(color='#170f38'),
         tickfont=dict(color='#170f38'),
         showgrid=True,
         gridcolor='lightgray'
     ),
     yaxis2=dict(
-        title='Modes',
+        # title='Modes',
+        title=dict(
+            text='Modes', 
+            font=dict(color='#3a46f5')),
         overlaying='y',
         side='right',
         tickvals=[1, 2, 3],
-        titlefont=dict(color='#3a46f5'),
+        # titlefont=dict(color='#3a46f5'),
         tickfont=dict(color='#3a46f5')
         
     ),
@@ -77,6 +82,6 @@ fig.update_layout(
 )
 
 # Show the figure
-fig.show()
+fig.show(config={'includeMathJax': False})
 
 ```
